@@ -1,10 +1,11 @@
 # petrsx/tap
 
-Homebrew formulae for [petrsx](https://github.com/petrsx) projects.
+Homebrew casks for [petrsx](https://github.com/petrsx) projects.
 
 ```sh
-brew install petrsx/tap/aibench
+brew install --cask petrsx/tap/aibench
 ```
 
-`Formula/aibench.rb` is rewritten by aibench's release workflow on every
-release; it builds from the tagged source tarball.
+`Casks/aibench.rb` is written by aibench's release workflow on every
+release: it points at that release's archive for your platform, macOS or
+Linux, and links the binary.
